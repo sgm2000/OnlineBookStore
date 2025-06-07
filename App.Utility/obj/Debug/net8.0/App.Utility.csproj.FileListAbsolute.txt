@@ -1,0 +1,12 @@
+D:\Projects\DOTNET\ECommerceApp\App.Utility\bin\Debug\net8.0\App.Utility.deps.json
+D:\Projects\DOTNET\ECommerceApp\App.Utility\bin\Debug\net8.0\App.Utility.dll
+D:\Projects\DOTNET\ECommerceApp\App.Utility\bin\Debug\net8.0\App.Utility.pdb
+D:\Projects\DOTNET\ECommerceApp\App.Utility\obj\Debug\net8.0\App.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DOTNET\ECommerceApp\App.Utility\obj\Debug\net8.0\App.Utility.AssemblyInfoInputs.cache
+D:\Projects\DOTNET\ECommerceApp\App.Utility\obj\Debug\net8.0\App.Utility.AssemblyInfo.cs
+D:\Projects\DOTNET\ECommerceApp\App.Utility\obj\Debug\net8.0\App.Utility.csproj.CoreCompileInputs.cache
+D:\Projects\DOTNET\ECommerceApp\App.Utility\obj\Debug\net8.0\App.Utility.dll
+D:\Projects\DOTNET\ECommerceApp\App.Utility\obj\Debug\net8.0\refint\App.Utility.dll
+D:\Projects\DOTNET\ECommerceApp\App.Utility\obj\Debug\net8.0\App.Utility.pdb
+D:\Projects\DOTNET\ECommerceApp\App.Utility\obj\Debug\net8.0\ref\App.Utility.dll
+D:\Projects\DOTNET\ECommerceApp\App.Utility\obj\Debug\net8.0\App.Utility.csproj.AssemblyReference.cache

@@ -1,0 +1,38 @@
+﻿@model Category
+<h2 class="text-danger jittery-text">
+	@foreach (var letter in "Are you sure you want to delete this category?")
+	{
+		<span>@letter</span>
+	}
+</h2>
+<h4>@Model.Name</h4>
+
+<div class="card shadow border-0 mt-4">
+	<div class=" card-header bg-secondary bg-gradient ml-0 py-3">
+		<div class="row">
+			<div class="col-12 text-center">
+				<h2 class="text-white py-2"> Delete Category </h2>
+			</div>
+		</div>
+	</div>
+	<div class="card-body p-4">
+		<form method="post">
+			<input type="hidden" asp-for="Category_Id" />
+			<input type="hidden" asp-for="Name" />
+			<div class="border p-3 mt-4">				
+				<div class="mb-3 row">
+					<label asp-for="Name"></label>
+					<input asp-for="Name" disabled class="form-control" />
+				</div>
+				<div class="mb-3 row">
+					<label asp-for="DisplayOrder"></label>
+					<input asp-for="DisplayOrder" disabled class="form-control" />
+				</div>
+				<button type="submit" class="btn btn-danger" style="width:100px"> Delete </button>
+				<a asp-controller="Category" asp-action="Index" class="btn-secondary" style="width:100px; margin-left: 50px">Back To List</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+

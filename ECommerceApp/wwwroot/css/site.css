@@ -1,0 +1,65 @@
+.divider-text:before,
+.divider-text::after{
+    color: white;
+    content:"";
+    flex: 1;
+    border-bottom: 1px solid #555;
+    margin: auto 0.25rem;
+    box-shadow: 0-2px;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.jittery-text {
+    display: inline-block;
+    letter-spacing: -1px; /* Reduce the gap between letters */
+    font-size: 24px; /* Adjust to fit your theme */
+}
+
+    .jittery-text span {
+        display: inline-block;
+        animation: jitter 0.3s ease-in-out infinite alternate;
+    }
+
+        .jittery-text span:nth-child(2n) {
+            animation-delay: 0.05s;
+        }
+
+        .jittery-text span:nth-child(3n) {
+            animation-delay: 0.1s;
+        }
+
+        .jittery-text span:nth-child(4n) {
+            animation-delay: 0.15s;
+        }
+
+@keyframes jitter {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(1px, -1px);
+    }
+}

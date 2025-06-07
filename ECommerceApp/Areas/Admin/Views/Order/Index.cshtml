@@ -1,0 +1,94 @@
+﻿@{
+	var selectedStatus = Context.Request.Query["status"].ToString()?.ToLower() ?? "all";
+}
+
+
+<div class="container ">
+	<div class="row pt-4 pb-3">
+		<div class="col-6">
+			<h2 class="text-primary">Order List</h2>
+		</div>
+	</div>
+	<div class="d-flex justify-content-end pb-5 pt-2">
+		<span class="me-2 fw-semibold">Filter:</span>
+		<select id="orderStatusFilter" class="form-select w-auto" onchange="filterOrders(this)">
+			<option value="all" selected="@(selectedStatus == "all")">All</option>
+			<option value="inprocess" selected="@(selectedStatus == "inprocess")">In Process</option>
+			<option value="pending" selected="@(selectedStatus == "pending")">Payment Pending</option>
+			<option value="completed" selected="@(selectedStatus == "completed")">Completed</option>
+			<option value="approved" selected="@(selectedStatus == "approved")">Approved</option>			
+		</select>
+	</div>
+	<table id="tblData" class="table table-hover">
+		<thead>
+			<tr class="table-active">
+				<th>
+					ID
+				</th>
+				<th>
+					Name
+				</th>
+				<th>
+					PhoneNumber
+				</th>
+				<th>
+					Email
+				</th>
+				<th>
+					Status
+				</th>
+				<th>
+					Total
+				</th>
+				<th>
+					Details
+				</th>
+			</tr>
+		</thead>
+		<!-- <tbody>
+		@*  @foreach(var obj in Model)
+        {
+            <tr>
+                <td>
+                    @obj.Title
+                <td>
+                    @obj.ISBN
+                </td>
+                <td>
+                    @obj.Price
+                </td>
+                <td>
+                    @obj.Author
+                </td>
+                <td>
+                    @obj.Category.Name
+                </td>
+                <td>
+                    <div class="w-10 btn-group" role="group">
+                            <a asp-controller="Product" asp-action="Upsert"  asp-route-Id = "@obj.Id" class="btn btn-primary mx-2">
+                                <i class="bi bi-pencil-square"></i>
+                            </a>
+                    </div>
+                        <div class="w-10 btn-group" role="group">
+                            <a asp-controller="Product" asp-action="Delete" asp-route-Id="@obj.Id" class="btn btn-danger mx-2">
+                                <i class="bi bi-trash3"></i>
+                            </a>
+                        </div>
+                </td>
+            </tr>
+        } *@     
+
+	</tbody> earlier implementation without datatables     -->
+	</table>
+
+</div>
+
+@section Scripts {
+	<script src="~/js/order.js"></script>
+	<script>
+		function filterOrders(selectElement) {
+			const selectedStatus = selectElement.value;
+			window.location.href = `/Admin/Order?status=${selectedStatus}`;
+		}
+	</script>
+}

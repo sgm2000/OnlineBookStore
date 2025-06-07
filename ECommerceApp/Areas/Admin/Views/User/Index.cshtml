@@ -1,0 +1,37 @@
+﻿@model List<Product>
+
+<div class="container ">
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-primary">User List</h2>
+        </div>
+    </div>
+    <table id="tblData" class="table table-hover">
+        <thead>
+            <tr class="table-active">
+                <th>
+                    Name
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Phone
+                </th>
+                <th>
+                    Company
+                </th>
+                <th>
+                    Role
+                </th>
+                <th>
+                    Edit/Delete
+                </th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+@section Scripts {
+    <script src="~/js/user.js"></script>
+}
