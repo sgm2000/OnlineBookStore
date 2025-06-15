@@ -9,3 +9,4 @@ D:\Projects\DOTNET\ECommerceApp\App.Models\obj\Debug\net8.0\App.Models.dll
 D:\Projects\DOTNET\ECommerceApp\App.Models\obj\Debug\net8.0\refint\App.Models.dll
 D:\Projects\DOTNET\ECommerceApp\App.Models\obj\Debug\net8.0\App.Models.pdb
 D:\Projects\DOTNET\ECommerceApp\App.Models\obj\Debug\net8.0\ref\App.Models.dll
+D:\Projects\DOTNET\ECommerceApp\App.Models\obj\Debug\net8.0\App.Models.sourcelink.json

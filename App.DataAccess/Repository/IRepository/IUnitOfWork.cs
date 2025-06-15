@@ -15,6 +15,7 @@ namespace App.DataAccess.Repository.IRepository
         IApplicationUserRepository ApplicationUser{ get; }
         IOrderDetailRepository OrderDetail{ get; }
         IOrderHeaderRepository OrderHeader{ get; }
+        IProductImageRepository productImage{ get; }
         void Save();
 
     }

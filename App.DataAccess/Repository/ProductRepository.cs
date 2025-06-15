@@ -34,10 +34,11 @@ namespace App.DataAccess.Repository
                 existingProduct.Price100 = product.Price100;
                 existingProduct.Description = product.Description;
                 existingProduct.Category_Id = product.Category_Id;
-                if (product.ImageUrl != null)
-                {
-                    existingProduct.ImageUrl = product.ImageUrl;
-                }
+                existingProduct.ProductImages = product.ProductImages;
+                //if (product.ImageUrl != null)
+                //{
+                //    existingProduct.ImageUrl = product.ImageUrl;
+                //}
                 _dbContext.Products.Update(existingProduct);
             }
             

@@ -17,3 +17,4 @@ D:\Projects\DOTNET\ECommerceApp\App.DataAccess\obj\Debug\net8.0\App.DataAccess.g
 D:\Projects\DOTNET\ECommerceApp\App.DataAccess\obj\Debug\net8.0\ref\App.DataAccess.dll
 D:\Projects\DOTNET\ECommerceApp\App.DataAccess\bin\Debug\net8.0\App.Utility.dll
 D:\Projects\DOTNET\ECommerceApp\App.DataAccess\bin\Debug\net8.0\App.Utility.pdb
+D:\Projects\DOTNET\ECommerceApp\App.DataAccess\obj\Debug\net8.0\App.DataAccess.sourcelink.json

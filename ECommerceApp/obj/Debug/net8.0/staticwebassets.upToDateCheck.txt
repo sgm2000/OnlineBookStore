@@ -12,6 +12,9 @@ wwwroot\images\product\cae20714-309b-4ef8-b6b3-da3308d2ba2f.jpg
 wwwroot\images\product\de98d4ce-68ad-41b7-964d-75e8fd4fb9a7.jpg
 wwwroot\images\product\eae60b3b-b429-4ace-92fc-d7134da252e8.png
 wwwroot\images\product\ef6bc110-473c-4546-add9-7d380588d1e9.jpg
+wwwroot\images\products\product-4\422f4684-9565-4d4f-88e2-5de1a1200a74.jpg
+wwwroot\images\products\product-4\afeb2ee4-4679-4e04-888c-e549409ed68c.jpg
+wwwroot\images\products\product-5\fa8be1e6-983a-47ba-9d92-60bb32d8ba9a.jpg
 wwwroot\js\company.js
 wwwroot\js\order.js
 wwwroot\js\product.js

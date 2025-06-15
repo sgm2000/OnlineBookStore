@@ -11,7 +11,7 @@
 	<div class="card-body p-4">
 		<form method="post" class="row" enctype="multipart/form-data">
 			<input asp-for="Product.Id" hidden/>
-			<input asp-for="Product.ImageUrl" hidden/>
+			@* <input asp-for="Product.ImageUrl" hidden/> *@
 			<div class="row">
 				<div class="col-10">
 					<div class="border p-3">
@@ -66,8 +66,8 @@
 							<span asp-validation-for="Product.Category_Id" class="text-danger"></span>
 						</div>
 						<div class="mb-3 row">
-							<label asp-for="Product.ImageUrl"></label>
-							<input type="file" name="file" class="form-control" />
+							<label asp-for="Product.ProductImages"></label>
+							<input type="file" name="files" class="form-control" multiple/>
 						</div>
 						@if (Model.Product.Id != 0)
 						{
@@ -83,8 +83,20 @@
 					</div>
 				</div>
 				<div class="col-2">
-					<img src="@Model.Product.ImageUrl" width="100%" alt="Book Image"
-						 style="border-radius: 5px; border: 1px solid #bbb9b9;" />
+					@if(Model.Product.ProductImages != null)
+					{
+						foreach (var image in Model.Product.ProductImages)
+						{
+							<div class="border pbg-opacity-1 m-2 text-center">
+								<img src="@image.ImageUrl" width="100%" alt="Book Image"
+									 style="border-radius: 5px; border: 1px solid #bbb9b9;" />
+								<a asp-action="DeleteImage" class="btn btn-danger" asp-route-imageId="@image.Id">
+									<i class="bi bi-trash-fill"></i>Delete
+								</a>
+							</div>
+						}
+					}
+					@*  *@
 				</div>
 			</div>
 		</form>
@@ -102,7 +114,7 @@
 			'anchor', 'autolink', 'charmap', 'codesample', 'emoticons',  'lists', 'table', 'visualblocks', 'wordcount',
 			// Your account includes a free trial of TinyMCE premium features
 			// Try the most popular premium features until Jun 6, 2025:
-			'checklist', 'mediaembed', 'casechange', 'formatpainter', 'pageembed', 'a11ychecker', 'tinymcespellchecker', 'permanentpen', 'powerpaste', 'advtable', 'advcode', 'editimage', 'advtemplate', 'ai', 'mentions', 'tinycomments', 'tableofcontents', 'footnotes', 'mergetags', 'autocorrect', 'typography', 'inlinecss', 'markdown','importword', 'exportword', 'exportpdf'
+			//'checklist', 'mediaembed', 'casechange', 'formatpainter', 'pageembed', 'a11ychecker', 'tinymcespellchecker', 'permanentpen', 'powerpaste', 'advtable', 'advcode', 'editimage', 'advtemplate', 'ai', 'mentions', 'tinycomments', 'tableofcontents', 'footnotes', 'mergetags', 'autocorrect', 'typography', 'inlinecss', 'markdown','importword', 'exportword', 'exportpdf'
 		  ],
 		  toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent |',
 		  tinycomments_mode: 'embedded',

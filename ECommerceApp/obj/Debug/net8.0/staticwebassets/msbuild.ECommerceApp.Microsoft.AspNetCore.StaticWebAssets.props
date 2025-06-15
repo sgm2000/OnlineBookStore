@@ -270,6 +270,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\ef6bc110-473c-4546-add9-7d380588d1e9.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\product-4\422f4684-9565-4d4f-88e2-5de1a1200a74.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ECommerceApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ECommerceApp</BasePath>
+      <RelativePath>images/products/product-4/422f4684-9565-4d4f-88e2-5de1a1200a74.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ooua9g65s9</Fingerprint>
+      <Integrity>KL118GserQak5UenU1O0jO0gunyIRYxVIbhWefFc4z4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\product-4\422f4684-9565-4d4f-88e2-5de1a1200a74.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\product-4\afeb2ee4-4679-4e04-888c-e549409ed68c.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ECommerceApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ECommerceApp</BasePath>
+      <RelativePath>images/products/product-4/afeb2ee4-4679-4e04-888c-e549409ed68c.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>563rbqziho</Fingerprint>
+      <Integrity>zYsCgzPsex9QdSjNUjGnz7Mlq4mhWlpTM6TtPcTTr2Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\product-4\afeb2ee4-4679-4e04-888c-e549409ed68c.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\product-5\fa8be1e6-983a-47ba-9d92-60bb32d8ba9a.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ECommerceApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ECommerceApp</BasePath>
+      <RelativePath>images/products/product-5/fa8be1e6-983a-47ba-9d92-60bb32d8ba9a.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>563rbqziho</Fingerprint>
+      <Integrity>zYsCgzPsex9QdSjNUjGnz7Mlq4mhWlpTM6TtPcTTr2Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\product-5\fa8be1e6-983a-47ba-9d92-60bb32d8ba9a.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\company.js'))">
       <SourceType>Package</SourceType>
       <SourceId>ECommerceApp</SourceId>
